@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	<head></head>
+
+	<body>
+		<form action='/~/coding-project/signup' method='POST' enctype='multipart/form-data'>
+			<!-- Username and password are mandatory to create an account -->
+			<input type='email' name='username' placeholder='Email' required>
+			<input type='password' name='password' placeholder='Password' required>
+
+			<input type='submit' value='Sign up'>
+
+		</form>
+		<form action="/~/coding-project/account/profile" method="POST" enctype="multipart/form-data">
+			<label>Please write about your walk with the dog</label>
+			<!-- Add input fields to store data -->
+			<input type="text" name="log" placeholder="went for a walk for 30 mins at 4pm" required>
+			<!-- Submit button to send form data-->
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+
+</html>
